@@ -1,0 +1,37 @@
+	<ion-view view-title=" Dashboard" hide-nav-bar="false" >
+		<!-- popover -->
+		<ion-nav-buttons side="right">
+			<button class="button button-icon button-clear ion-android-more-vertical" id="menu-popover" ng-click="popover.show($event)"></button>
+		</ion-nav-buttons>
+		<!-- ./popover -->
+		<ion-nav-title> Dashboard</ion-nav-title>
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-dashboard" class=" page-dashboard">
+				<div class="dashboard-panel">
+			<!-- row -->
+			<!--<div class="row">
+				<a class="col-33 no-border light positive-bg ink"  ng-href="#/hippiebook/dashboard" >
+					<i class="icon ion-android-home" ></i>
+					<p>{{ "Home" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light positive-900-bg ink"  ng-href="#/hippiebook/booking" >
+					<i class="icon ion-android-checkbox-outline" ></i>
+					<p>{{ "Reservas" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light calm-bg ink"  ng-href="#/hippiebook/menu_diario" >
+					<i class="icon ion-fork" ></i>
+					<p>{{ "Menu" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
